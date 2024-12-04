@@ -367,7 +367,7 @@ fn print_welcome_screen() {
 		'Para obtener la mejor experiencia con V, utilice un editor de texto, ',
 		'guarde su código en un archivo ${file_main} y ejecute: ${cmd_v_run}',
 		'${version.full_v_version(false)} . Utilice ${cmd_list} para ver el programa acumulado hasta el momento.',
-		'Utilice Ctrl-C o ${cmd_exit} para salir, o ${cmd_help} para ver otros comandos disponibles. Nando Kbro',
+		'Utilice Ctrl-C o ${cmd_exit} para salir, o ${cmd_help} para ver otros comandos disponibles.',
 	]
 	if width >= 97 {
 		eprintln('${vlogo[0]}')
